@@ -1,0 +1,29 @@
+-- SELECT *
+-- FROM classicmodels.employees
+-- WHERE UPPER(email) IN 
+-- ('DMURPHY@CLASSICMODELCARS.COM',
+-- 'MPATTERSO@CLASSICMODELCARS.COM',
+-- 'JFIRRELLI@CLASSICMODELCARS.COM')
+
+
+-- SELECT *
+-- FROM classicmodels.employees
+-- WHERE UPPER(email) NOT IN 
+-- ('DMURPHY@CLASSICMODELCARS.COM',
+-- 'MPATTERSO@CLASSICMODELCARS.COM',
+-- 'JFIRRELLI@CLASSICMODELCARS.COM')
+
+
+-- SELECT *
+-- FROM classicmodels.employees
+-- WHERE UPPER(email) <> <-- applicable for 1 column only
+-- ('DMURPHY@CLASSICMODELCARS.COM',
+-- 'MPATTERSO@CLASSICMODELCARS.COM',
+-- 'JFIRRELLI@CLASSICMODELCARS.COM')
+
+SELECT *
+FROM classicmodels.customers
+WHERE UPPER(city) IN
+('NEW YORK',
+'LONDON',
+'MUMBAI');
